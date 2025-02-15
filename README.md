@@ -32,4 +32,4 @@ The website has been deployed on **Netlify** and can be accessed at:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Ridhsuki/gotoubun-web.git
