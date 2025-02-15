@@ -1,4 +1,4 @@
-![Gotoubun Banner](https://c4.wallpaperflare.com/wallpaper/603/824/873/go-toubun-no-hanayome-5-toubun-no-hanayome-hd-wallpaper-preview.jpg)
+<img src="https://c4.wallpaperflare.com/wallpaper/603/824/873/go-toubun-no-hanayome-5-toubun-no-hanayome-hd-wallpaper-preview.jpg" alt="Gotoubun Banner" width="100%">
 
 # Gotoubun Static Website
 
