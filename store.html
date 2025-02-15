@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store | Go-Toubun no Hanayome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <h1 class="product-name product-name-large">
+        Go-Toubun no Hanayome - Store
+      </h1>
+      <div class="container">
+        <a href="https://otakudesu.cloud/?s=gotoubun&post_type=anime"
+          ><button class="btn btn-header" type="button">Watch Now!</button></a
+        >
+      </div>
+      <a href="https://otakudesu.cloud/?s=gotoubun&post_type=anime"
+        ><button class="btn btn-header btn-play" type="button">
+          &#9658;
+        </button></a
+      >
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">Music</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Music 1</span>
+          <img
+            class="shop-item-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-BUnfKhRyerurIB-MmMp-0nXoUxcySxwk2r6zmDVDw&amp;s"
+            width="204"
+            height="204"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">50$</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div>
+          <div class="shop-item">
+            <span class="shop-item-title">Music 2</span>
+          </div>
+          <img
+            class="shop-item-image"
+            src="images/Gotoubun_no_Hanayome_Original_Soundtrack_Front_29.png"
+            width="204"
+            height="204"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">50$</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="section-header">merchandise</h2>
+      <div class="shop-items">
+        <div>
+          <div class="shop-item">
+            <span class="shop-item-title">T-Shirt</span>
+          </div>
+          <img
+            class="shop-item-image"
+            src="images/Merch-Tshirt.jpg"
+            alt="merchandise T-Shirt"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">16$</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div>
+          <div class="shop-item">
+            <span class="shop-item-title">Cup</span>
+          </div>
+          <img
+            class="shop-item-image"
+            src="images/Merch-Cup.jpg"
+            alt="merchandise cup"
+            width="204"
+            height="204"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">26$</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div>
+          <div class="shop-item">
+            <span class="shop-item-title">Mini Figure</span>
+          </div>
+          <img
+            class="shop-item-image"
+            src="images/Merch-Actionfigure.jpg"
+            alt="merchandise Actionfigure"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">120$</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" role="button">
+        PURCHASE
+      </button>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h2 class="product-name">Go-Toubun no Hanayome</h2>
+        <ul class="nav footer-nav">
+          <li>
+            <a
+              href="https://www.facebook.com/Gotoubun.AnimeLive"
+              target="_blank"
+            >
+              <img src="images/Facebook Logo.png" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/go.toubun.no.hanayome.5/?hl=de"
+              target="_blank"
+            >
+              <img id="ig" src="images/Instagram Logo.png" alt="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCiXbwEcsQtgTPbPnHfw2lmg"
+              target="_blank"
+            >
+              <img src="images/YouTube Logo.png" alt="YouTube" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="cr">Basuki Ridho Al Ghifari</p>
+    </footer>
+  </body>
+</html>
